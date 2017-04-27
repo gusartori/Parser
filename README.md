@@ -71,7 +71,7 @@ For steps 2 and 3, two different files are generated to represent what was asked
 
 ## Data
 
-The data to be loaded from the file to the database are mapped through POJO Webhook (package **com.parser.mojo**).
+The data to be loaded from the file to the database are mapped through POJO Webhook (package **com.parser.pojo**).
 A table is created for that on application initialization by[data.sql](https://github.com/gusartori/Parser/blob/master/src/main/resources/data.sql).
 To match exactly what I need from the file I used regular expression [ReadFileConfig.java](https://github.com/gusartori/Parser/blob/master/src/main/java/com/parser/config/ReadFileConfig.java).
  
