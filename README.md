@@ -28,6 +28,7 @@ Para os passos 2 e 3 gerei diferentes arquivos para representar o que foi pedido
 
 Os dados a serem carregados do arquivo para o banco de dados são mapeados através do POJO Webhook, presente no pacote **com.parser.pojo** .
 Uma tabela é criada para isso na inicialização da aplciação pelo arquivo [data.sql](https://github.com/gusartori/Parser/blob/master/src/main/resources/data.sql).
+Para conseguir buscar exatamente o que eu precisava no arquivo utilizei expressão regular [ReadFileConfig.java](https://github.com/gusartori/Parser/blob/master/src/main/java/com/parser/config/ReadFileConfig.java).
  
 ## Rodando a aplicação
 
@@ -71,7 +72,8 @@ For steps 2 and 3, two different files are generated to represent what was asked
 ## Data
 
 The data to be loaded from the file to the database are mapped through POJO Webhook (package **com.parser.mojo**).
-A table is created for that on application initialization by[data.sql](https://github.com/gusartori/Parser/blob/master/src/main/resources/data.sql). 
+A table is created for that on application initialization by[data.sql](https://github.com/gusartori/Parser/blob/master/src/main/resources/data.sql).
+To match exactly what I need from the file I used regular expression [ReadFileConfig.java](https://github.com/gusartori/Parser/blob/master/src/main/java/com/parser/config/ReadFileConfig.java).
  
 ## Build and run
 
