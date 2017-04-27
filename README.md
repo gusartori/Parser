@@ -41,7 +41,7 @@ Dois arquivos serão gerados na pasta **output**:
 
 > mostCalledURL.txt : contém as 3 urls mais chamadas com a quantidade
 
-> webhooksByStatus : contém a quantidade de webhooks por status
+> webhooksByStatus.txt : contém a quantidade de webhooks por status
 
 ---
 
@@ -85,4 +85,4 @@ Two files will be created on **output** folder:
 
 > mostCalledURL.txt : has the top 3 URL with the number of Webhooks
 
-> webhooksByStatus : has the number of Webhooks by response status
+> webhooksByStatus.txt : has the number of Webhooks by response status
