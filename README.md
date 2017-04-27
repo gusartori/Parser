@@ -1,5 +1,5 @@
 # RESTful service using JAX-RS
-*Scrow down for English version*
+*Scroll down for English version*
 
 ## Introdução 
 
