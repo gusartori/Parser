@@ -1,4 +1,4 @@
-# RESTful service using JAX-RS
+# Spring Batch file parser using Spring Boot
 *Scroll down for English version*
 
 ## Introdução 
